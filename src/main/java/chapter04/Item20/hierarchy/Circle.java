@@ -3,7 +3,7 @@ package chapter04.Item20.hierarchy;
 
 class Circle extends Figure {
 	
-	final double radius;
+	final double	radius;
 	
 	Circle(double radius) {
 		this.radius = radius;

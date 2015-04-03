@@ -8,7 +8,7 @@ import java.util.TimeZone;
 
 public class Person {
 	
-	private final Date birthDate;
+	private final Date	birthDate;
 	
 	public Person(Date birthDate) {
 		// Defensive copy - see Item 39

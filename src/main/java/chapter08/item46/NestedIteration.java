@@ -18,8 +18,8 @@ enum Rank {
 
 class Card {
 	
-	final Suit suit;
-	final Rank rank;
+	final Suit	suit;
+	final Rank	rank;
 	
 	Card(Suit suit, Rank rank) {
 		this.suit = suit;

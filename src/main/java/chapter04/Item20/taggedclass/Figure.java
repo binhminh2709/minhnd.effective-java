@@ -9,14 +9,14 @@ class Figure {
 	};
 	
 	// Tag field - the shape of this figure
-	final Shape shape;
+	final Shape	shape;
 	
 	// These fields are used only if shape is RECTANGLE
-	double length;
-	double width;
+	double			length;
+	double			width;
 	
 	// This field is used only if shape is CIRCLE
-	double radius;
+	double			radius;
 	
 	// Constructor for circle
 	Figure(double radius) {

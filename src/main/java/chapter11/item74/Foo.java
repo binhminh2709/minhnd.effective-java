@@ -33,5 +33,5 @@ public class Foo extends AbstractFoo implements Serializable {
 		super(x, y);
 	}
 	
-	private static final long serialVersionUID = 1856835860954L;
+	private static final long	serialVersionUID	= 1856835860954L;
 }

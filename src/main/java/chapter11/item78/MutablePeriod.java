@@ -11,13 +11,13 @@ import java.util.Date;
 public class MutablePeriod {
 	
 	// A period instance
-	public final Period period;
+	public final Period	period;
 	
 	// period's start field, to which we shouldn't have access
-	public final Date start;
+	public final Date		start;
 	
 	// period's end field, to which we shouldn't have access
-	public final Date end;
+	public final Date		end;
 	
 	public MutablePeriod() {
 		try {

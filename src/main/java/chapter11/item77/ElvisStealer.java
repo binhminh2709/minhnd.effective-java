@@ -6,8 +6,8 @@ import java.io.Serializable;
 
 public class ElvisStealer implements Serializable {
 	
-	static Elvis impersonator;
-	private Elvis payload;
+	static Elvis	impersonator;
+	private Elvis	payload;
 	
 	private Object readResolve() {
 		// Save a reference to the "unresolved" Elvis instance
@@ -19,5 +19,5 @@ public class ElvisStealer implements Serializable {
 		};
 	}
 	
-	private static final long serialVersionUID = 0;
+	private static final long	serialVersionUID	= 0;
 }

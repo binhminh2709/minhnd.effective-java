@@ -7,9 +7,9 @@ import java.util.Map;
 
 public final class PhoneNumber implements Cloneable {
 	
-	private final short areaCode;
-	private final short prefix;
-	private final short lineNumber;
+	private final short	areaCode;
+	private final short	prefix;
+	private final short	lineNumber;
 	
 	public PhoneNumber(int areaCode, int prefix, int lineNumber) {
 		rangeCheck(areaCode, 999, "area code");

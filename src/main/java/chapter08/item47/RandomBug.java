@@ -6,7 +6,7 @@ import java.util.Random;
 
 public class RandomBug {
 	
-	private static final Random rnd = new Random();
+	private static final Random	rnd	= new Random();
 	
 	// Common but deeply flawed!
 	static int random(int n) {

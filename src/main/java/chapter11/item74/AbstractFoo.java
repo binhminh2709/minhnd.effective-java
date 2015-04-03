@@ -6,14 +6,14 @@ import java.util.concurrent.atomic.AtomicReference;
 
 public abstract class AbstractFoo {
 	
-	private int x, y; // Our state
+	private int	x, y; // Our state
 					
 	// This enum and field are used to track initialization
 	private enum State {
 		NEW, INITIALIZING, INITIALIZED
 	};
 	
-	private final AtomicReference<State> init = new AtomicReference<State>(State.NEW);
+	private final AtomicReference<State>	init	= new AtomicReference<State>(State.NEW);
 	
 	public AbstractFoo(int x, int y) {
 		initialize(x, y);

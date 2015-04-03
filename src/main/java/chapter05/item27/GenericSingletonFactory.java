@@ -5,12 +5,12 @@ package chapter05.item27;
 public class GenericSingletonFactory {
 	
 	// Generic singleton factory pattern
-	private static UnaryFunction<Object> IDENTITY_FUNCTION = new UnaryFunction<Object>() {
-		
-		public Object apply(Object arg) {
-			return arg;
-		}
-	};
+	private static UnaryFunction<Object>	IDENTITY_FUNCTION	= new UnaryFunction<Object>() {
+																														
+																														public Object apply(Object arg) {
+																															return arg;
+																														}
+																													};
 	
 	// IDENTITY_FUNCTION is stateless and its type parameter is
 	// unbounded so it's safe to share one instance across all types.

@@ -9,15 +9,15 @@ import java.io.Serializable;
 
 public final class StringList implements Serializable {
 	
-	private transient int size = 0;
-	private transient Entry head = null;
+	private transient int		size	= 0;
+	private transient Entry	head	= null;
 	
 	// No longer Serializable!
 	private static class Entry {
 		
-		String data;
-		Entry next;
-		Entry previous;
+		String	data;
+		Entry		next;
+		Entry		previous;
 	}
 	
 	// Appends the specified string to the list
@@ -52,6 +52,6 @@ public final class StringList implements Serializable {
 			add((String) s.readObject());
 	}
 	
-	private static final long serialVersionUID = 93248094385L;
+	private static final long	serialVersionUID	= 93248094385L;
 	// Remainder omitted
 }

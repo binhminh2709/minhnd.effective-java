@@ -29,7 +29,7 @@ public enum BasicOperation
 		}
 	};
 	
-	private final String symbol;
+	private final String	symbol;
 	
 	BasicOperation(String symbol) {
 		this.symbol = symbol;

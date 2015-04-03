@@ -4,7 +4,7 @@ package chapter03.item08;
 
 public final class CaseInsensitiveString {
 	
-	private final String s;
+	private final String	s;
 	
 	public CaseInsensitiveString(String s) {
 		if (s == null) throw new NullPointerException();

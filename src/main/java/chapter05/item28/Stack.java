@@ -8,9 +8,9 @@ import java.util.Collection;
 
 public class Stack<E> {
 	
-	private E[] elements;
-	private int size = 0;
-	private static final int DEFAULT_INITIAL_CAPACITY = 16;
+	private E[]								elements;
+	private int								size											= 0;
+	private static final int	DEFAULT_INITIAL_CAPACITY	= 16;
 	
 	// The elements array will contain only E instances from push(E).
 	// This is sufficient to ensure type safety, but the runtime

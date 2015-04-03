@@ -4,7 +4,7 @@ package chapter02.item03.method;
 
 public class Elvis {
 	
-	private static final Elvis INSTANCE = new Elvis();
+	private static final Elvis	INSTANCE	= new Elvis();
 	
 	private Elvis() {
 	}

@@ -7,7 +7,7 @@ import java.util.concurrent.ConcurrentMap;
 
 public class Intern {
 	
-	private static final ConcurrentMap<String, String> map = new ConcurrentHashMap<String, String>();
+	private static final ConcurrentMap<String, String>	map	= new ConcurrentHashMap<String, String>();
 	
 	// Concurrent canonicalizing map atop ConcurrentMap - not optimal - Page 273
 	// public static String intern(String s) {

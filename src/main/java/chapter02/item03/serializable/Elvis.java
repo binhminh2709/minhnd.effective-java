@@ -4,7 +4,7 @@ package chapter02.item03.serializable;
 
 public class Elvis {
 	
-	public static final Elvis INSTANCE = new Elvis();
+	public static final Elvis	INSTANCE	= new Elvis();
 	
 	private Elvis() {
 	}

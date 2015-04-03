@@ -4,8 +4,8 @@ package chapter04.item15;
 
 public final class Complex {
 	
-	private final double re;
-	private final double im;
+	private final double	re;
+	private final double	im;
 	
 	private Complex(double re, double im) {
 		this.re = re;
@@ -20,9 +20,9 @@ public final class Complex {
 		return new Complex(r * Math.cos(theta), r * Math.sin(theta));
 	}
 	
-	public static final Complex ZERO = new Complex(0, 0);
-	public static final Complex ONE = new Complex(1, 0);
-	public static final Complex I = new Complex(0, 1);
+	public static final Complex	ZERO	= new Complex(0, 0);
+	public static final Complex	ONE		= new Complex(1, 0);
+	public static final Complex	I			= new Complex(0, 1);
 	
 	// Accessors with no corresponding mutators
 	public double realPart() {

@@ -6,8 +6,8 @@ import java.util.Date;
 
 public final class Period {
 	
-	private final Date start;
-	private final Date end;
+	private final Date	start;
+	private final Date	end;
 	
 	/**
 	 * @param start

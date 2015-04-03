@@ -9,14 +9,14 @@ import java.util.Arrays;
 // Broken singleton - has nontransient object reference field!
 public class Elvis implements Serializable {
 	
-	public static final Elvis INSTANCE = new Elvis();
+	public static final Elvis	INSTANCE	= new Elvis();
 	
 	private Elvis() {
 	}
 	
-	private String[] favoriteSongs = {
+	private String[]	favoriteSongs	= {
 		"Hound Dog", "Heartbreak Hotel"
-	};
+																	};
 	
 	public void printFavorites() {
 		System.out.println(Arrays.toString(favoriteSongs));

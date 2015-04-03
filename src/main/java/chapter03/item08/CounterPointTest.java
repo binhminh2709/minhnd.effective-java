@@ -8,7 +8,7 @@ import java.util.Set;
 public class CounterPointTest {
 	
 	// Initialize UnitCircle to contain all Points on the unit circle
-	private static final Set<Point> unitCircle;
+	private static final Set<Point>	unitCircle;
 	static {
 		unitCircle = new HashSet<Point>();
 		unitCircle.add(new Point(1, 0));

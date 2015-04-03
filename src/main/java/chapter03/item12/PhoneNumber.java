@@ -8,9 +8,9 @@ import java.util.TreeSet;
 
 public final class PhoneNumber implements Cloneable, Comparable<PhoneNumber> {
 	
-	private final short areaCode;
-	private final short prefix;
-	private final short lineNumber;
+	private final short	areaCode;
+	private final short	prefix;
+	private final short	lineNumber;
 	
 	public PhoneNumber(int areaCode, int prefix, int lineNumber) {
 		rangeCheck(areaCode, 999, "area code");
@@ -113,7 +113,7 @@ public final class PhoneNumber implements Cloneable, Comparable<PhoneNumber> {
 		System.out.println(s);
 	}
 	
-	private static final Random rnd = new Random();
+	private static final Random	rnd	= new Random();
 	
 	private static PhoneNumber randomPhoneNumber() {
 		return new PhoneNumber((short) rnd.nextInt(1000), (short) rnd.nextInt(1000), (short) rnd.nextInt(10000));

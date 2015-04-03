@@ -31,7 +31,7 @@ public enum Operation {
 		}
 	};
 	
-	private final String symbol;
+	private final String	symbol;
 	
 	Operation(String symbol) {
 		this.symbol = symbol;
@@ -45,7 +45,7 @@ public enum Operation {
 	abstract double apply(double x, double y);
 	
 	// Implementing a fromString method on an enum type - Page 154
-	private static final Map<String, Operation> stringToEnum = new HashMap<String, Operation>();
+	private static final Map<String, Operation>	stringToEnum	= new HashMap<String, Operation>();
 	static { // Initialize map from constant name to enum constant
 		for (Operation op : values())
 			stringToEnum.put(op.toString(), op);

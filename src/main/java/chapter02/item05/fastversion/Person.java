@@ -8,7 +8,7 @@ import java.util.TimeZone;
 
 class Person {
 	
-	private final Date birthDate;
+	private final Date	birthDate;
 	
 	public Person(Date birthDate) {
 		// Defensive copy - see Item 39
@@ -20,8 +20,8 @@ class Person {
 	/**
 	 * The starting and ending dates of the baby boom.
 	 */
-	private static final Date BOOM_START;
-	private static final Date BOOM_END;
+	private static final Date	BOOM_START;
+	private static final Date	BOOM_END;
 	
 	static {
 		Calendar gmtCal = Calendar.getInstance(TimeZone.getTimeZone("GMT"));

@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 public class StopThread {
 	
-	private static boolean stopRequested;
+	private static boolean	stopRequested;
 	
 	private static synchronized void requestStop() {
 		stopRequested = true;

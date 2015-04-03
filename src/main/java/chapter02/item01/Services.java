@@ -13,8 +13,8 @@ public class Services {
 	} // Prevents instantiation (Item 4)
 	
 	// Maps service names to services
-	private static final Map<String, Provider> providers = new ConcurrentHashMap<String, Provider>();
-	public static final String DEFAULT_PROVIDER_NAME = "<def>";
+	private static final Map<String, Provider>	providers							= new ConcurrentHashMap<String, Provider>();
+	public static final String									DEFAULT_PROVIDER_NAME	= "<def>";
 	
 	// Provider registration API
 	public static void registerDefaultProvider(Provider p) {

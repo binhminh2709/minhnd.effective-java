@@ -4,13 +4,13 @@ package chapter02.item02.telescopingconstructor;
 
 public class NutritionFacts {
 	
-	private final int servingSize; // (mL) required
-	private final int servings; // (per container) required
-	private final int calories; // optional
-	private final int fat; // (g) optional
-	private final int sodium; // (mg) optional
-	private final int carbohydrate; // (g) optional
-	
+	private final int	servingSize;	// (mL) required
+	private final int	servings;		// (per container) required
+	private final int	calories;		// optional
+	private final int	fat;					// (g) optional
+	private final int	sodium;			// (mg) optional
+	private final int	carbohydrate; // (g) optional
+																	
 	public NutritionFacts(int servingSize, int servings) {
 		this(servingSize, servings, 0);
 	}

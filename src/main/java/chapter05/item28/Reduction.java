@@ -20,12 +20,12 @@ public class Reduction {
 		return result;
 	}
 	
-	private static final Function<Number> MAX = new Function<Number>() {
-		
-		public Number apply(Number n1, Number n2) {
-			return Double.compare(n1.doubleValue(), n2.doubleValue()) > 0 ? n1 : n2;
-		}
-	};
+	private static final Function<Number>	MAX	= new Function<Number>() {
+																							
+																							public Number apply(Number n1, Number n2) {
+																								return Double.compare(n1.doubleValue(), n2.doubleValue()) > 0 ? n1 : n2;
+																							}
+																						};
 	
 	public static void main(String[] args) {
 		// We can use a Number functionto reduce a list of Integer or Double

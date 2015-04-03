@@ -4,7 +4,7 @@ package chapter03.item08;
 
 public class ColorPoint extends Point {
 	
-	private final Color color;
+	private final Color	color;
 	
 	public ColorPoint(int x, int y, Color color) {
 		super(x, y);

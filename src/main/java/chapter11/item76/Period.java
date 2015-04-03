@@ -8,8 +8,8 @@ import java.util.Date;
 
 public final class Period implements Serializable {
 	
-	private Date start;
-	private Date end;
+	private Date	start;
+	private Date	end;
 	
 	/**
 	 * @param start

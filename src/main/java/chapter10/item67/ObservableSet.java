@@ -13,7 +13,7 @@ public class ObservableSet<E> extends ForwardingSet<E> {
 		super(set);
 	}
 	
-	private final List<SetObserver<E>> observers = new ArrayList<SetObserver<E>>();
+	private final List<SetObserver<E>>	observers	= new ArrayList<SetObserver<E>>();
 	
 	public void addObserver(SetObserver<E> observer) {
 		synchronized (observers) {

@@ -6,7 +6,7 @@ enum PayrollDay {
 	MONDAY(PayType.WEEKDAY), TUESDAY(PayType.WEEKDAY), WEDNESDAY(PayType.WEEKDAY), THURSDAY(PayType.WEEKDAY), FRIDAY(
 		PayType.WEEKDAY), SATURDAY(PayType.WEEKEND), SUNDAY(PayType.WEEKEND);
 	
-	private final PayType payType;
+	private final PayType	payType;
 	
 	PayrollDay(PayType payType) {
 		this.payType = payType;
@@ -31,7 +31,7 @@ enum PayrollDay {
 			}
 		};
 		
-		private static final int HOURS_PER_SHIFT = 8;
+		private static final int	HOURS_PER_SHIFT	= 8;
 		
 		abstract double overtimePay(double hrs, double payRate);
 		

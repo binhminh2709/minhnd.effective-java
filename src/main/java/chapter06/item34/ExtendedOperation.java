@@ -20,7 +20,7 @@ public enum ExtendedOperation
 		}
 	};
 	
-	private final String symbol;
+	private final String	symbol;
 	
 	ExtendedOperation(String symbol) {
 		this.symbol = symbol;

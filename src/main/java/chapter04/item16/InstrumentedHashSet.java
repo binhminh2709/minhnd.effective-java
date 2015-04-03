@@ -9,7 +9,7 @@ import java.util.HashSet;
 public class InstrumentedHashSet<E> extends HashSet<E> {
 	
 	// The number of attempted element insertions
-	private int addCount = 0;
+	private int	addCount	= 0;
 	
 	public InstrumentedHashSet() {
 	}

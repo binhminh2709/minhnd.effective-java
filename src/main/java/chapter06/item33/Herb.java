@@ -14,8 +14,8 @@ public class Herb {
 		ANNUAL, PERENNIAL, BIENNIAL
 	}
 	
-	private final String name;
-	private final Type type;
+	private final String	name;
+	private final Type		type;
 	
 	Herb(String name, Type type) {
 		this.name = name;

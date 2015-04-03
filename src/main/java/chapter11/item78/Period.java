@@ -9,8 +9,8 @@ import java.util.Date;
 
 public final class Period implements Serializable {
 	
-	private final Date start;
-	private final Date end;
+	private final Date	start;
+	private final Date	end;
 	
 	/**
 	 * @param start
@@ -43,16 +43,16 @@ public final class Period implements Serializable {
 	// Serialization proxy for Period class - page 312
 	private static class SerializationProxy implements Serializable {
 		
-		private final Date start;
-		private final Date end;
+		private final Date	start;
+		private final Date	end;
 		
 		SerializationProxy(Period p) {
 			this.start = p.start;
 			this.end = p.end;
 		}
 		
-		private static final long serialVersionUID = 234098243823485285L; // Any
-		
+		private static final long	serialVersionUID	= 234098243823485285L;	// Any
+																																				
 		// number
 		// will
 		// do
